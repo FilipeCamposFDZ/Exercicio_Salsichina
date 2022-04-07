@@ -1,0 +1,154 @@
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrcVIT9d0c-dYA.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrcVIT9d0c-dYA.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCHPrcVIT9d0c-dYA.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrcVIT9d0c-dYA.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrcVIT9d0c8.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+p{
+  font-family: 'Raleway';
+}
+
+
+  /*HEADER*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+header{
+    background-color: #E8DAB2;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0;
+    
+}
+
+
+h1{
+  position: absolute;
+  font-size: 52px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 15px;
+  font-family: 'Raleway';
+}
+
+h3{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-size: 26px;
+  position: absolute;
+  top: 49%;
+  transform: translateY(-100%);
+  padding: 15px;
+}
+
+.Salchicha{
+    width: 370px;
+    height: 192px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*PRINCIPAL*/
+
+main{
+background-color: #E8DAB2;
+width: 100vw;
+height: 100%;
+margin: 0;
+padding-bottom: 80px;
+}
+article{
+background-color: white;
+width: 800px;
+margin-left: 50%;
+transform: translateX(-50%);
+padding-top: 34px;
+padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 10px;
+box-shadow: 2px 2px 20px black;
+border-radius: 10px;
+}
+
+.fotoDog, iframe{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+h2{
+  font-size: 30px;
+  font-family: 'Raleway';
+}
+
+
+/*RODAPE*/
+
+footer{
+  background-color: black;
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+
+}
+
+.texto-rodape{
+  margin: 16px;
+  color: white;
+  position: absolute;
+  right: 5px;
+}
+
+a{
+  color: #35B1D2;
+  text-decoration: none;
+}
